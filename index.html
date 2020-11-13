@@ -4,45 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
-
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-
+    <script src="https://kit.fontawesome.com/d43d98806d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">SaberHoy</a>
+        <button type="button" class="navbar-toggler" aria-controls="menu" aria-expanded="false"
+            aria-label="toggle navigacion" data-target="#menu" data-toggle="collapse"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"> <a href="planes.html" class="nav-link">Planes</a></li>
+                <li class="nav-item"> <a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="container-fluid text-center">
-        <div class="row">
-            <div class="offset-md-3 col-md-6">
-                <h1>Clases online</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure itaque dolor? Quas, enim pariatur
-                    incidunt
-                    cum labore officia dicta animi a possimus. Voluptas, cupiditate illo accusantium deserunt possimus
-                    optio.
-                </p>
-                <a href="">Comenzar</a>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 my-5 py-lg-5">
+                <h1>Clases online para todo latinoamérica</h1>
+                <p class="lead">Miles de cursos te están esperando</p>
+                <a class="btn btn-info" href="">Comenzar</a>
             </div>
         </div>
     </section>
 
 
-    <section class="container">
+    <section class="container my-4 p-2">
 
         <div class="row">
 
-            <div class="col-md-6">
-                <p class="lead">Todos estos beneficios se incluyen en todos los planes</p>
+            <div class="col-md-6 d-flex align-items-center">
+                <p class="lead">Estos beneficios se incluyen en todos los planes</p>
             </div>
             <div class="col-md-6">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"> <span>&#10004;</span> Contacto con profesores</li>
-                    <li class="list-group-item"><span>&#10004;</span>Tus proyectos estarán visibles para toda la
+                    <li class="list-group-item"> <span><i class="fas fa-check"></i></span> Contacto con profesores</li>
+                    <li class="list-group-item"><span><i class="fas fa-check"></i></span> Tus proyectos estarán visibles
+                        para toda la
                         comunidad</li>
-                    <li class="list-group-item"><span>&#10004;</span>Descarga de material adicional</li>
+                    <li class="list-group-item"><span><i class="fas fa-check"></i></span> Descarga de material adicional
+                    </li>
 
                 </ul>
 
@@ -53,10 +63,121 @@
 
     </section>
 
+    <section class="container-fluid text-center my-4 py-4">
+
+        <h3>Categorías recomendadas:</h3>
+
+        <div class="row my-4">
+
+            <div class="col">
+
+                <i class="fas fa-palette fa-5x py-3"></i>
+
+                <p>Pintura</p>
+            </div>
+
+            <div class="col">
+
+                <i class="fas fa-music fa-5x py-3"></i>
+
+                <p>Música</p>
+            </div>
+
+            <div class="col">
+
+                <i class="fas fa-laptop fa-5x py-3"></i>
+
+                <p>Tecnología</p>
+            </div>
+
+            <div class="col">
+
+                <i class="fas fa-pen-nib fa-5x py-3"></i>
+
+                <p>Escritura</p>
+            </div>
+
+            <div class="col">
+
+                <i class="fas fa-seedling fa-5x py-3"></i>
+
+                <p>Jardinería</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container text-center">
+        <div class="row">
+            <div class="col-md-6 py-4">
+
+                <h2>Hacé crecer tu CV</h2>
+                <p>Descargá tu certificado al finalizar un curso</p>
+                <img src="img/certificado.png" alt="diploma ilustracion" class="w-50">
+
+            </div>
+            <div class="col-md-6 py-4">
+
+                <h2>Compartí tus intereses</h2>
+                <p>Hacé amigos en todo el mundo</p>
+                <img src="img/comunidad.png" alt="mensajes ilustracion" class="w-50">
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-4">
+
+                    <h2>Conectate donde estés</h2>
+                    <p>Con la app tenés acceso cuando quieras</p>
+                    <img src="img/app.png" alt="app ilustracion" class="w-50">
+
+                </div>
+                <div class="col-md-6 py-4">
+
+                    <h2>Contestamos tus dudas</h2>
+                    <p>Soporte las 24hs</p>
+                    <img src="img/ayuda.png" alt="pregunta ilustracion" class="w-50">
+
+                </div>
+
+
+            </div>
+
+
+    </section>
+
+    <section class="container-fluid my-4">
+        <div class="row">
+
+            <div class="col-md-8 offset-md-2 text-center">
+
+                <h3>¿Qué dicen nuestros usuarios?</h3>
+                <div class="row justify-content-around">
+
+                    <div class="col-5 p-4">
+                        <blockquote class="blockquote">
+                            <p>"Estoy muy conforme con las clases, los profesores son súper profesionales"</p>
+                            <footer class="blockquote-footer"> Usuario del plan Básico <cite>Samantha de Buenos
+                                    Aires</cite> </footer>
+
+                        </blockquote>
+                    </div>
+                    <div class="col-5 p-4">
+                        <blockquote class="blockquote">
+                            <p>"Me gusta que las clases son online y puedo acceder cuando tengo un rato libre"</p>
+                            <footer class="blockquote-footer"> Usuario del plan Básico <cite>Santiago de Colombia</cite>
+                            </footer>
+
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
 
 
+    </section>
 
 
 
