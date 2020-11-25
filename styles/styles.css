@@ -3,13 +3,83 @@ i{
 }
 
 .btn-info{
-    background-color: #4E73B9!important;
+    background-color: #0a3a92!important;
 }
 
 nav{
-    background-color: #F2BC1B;
+	background-color: #f29c1b;
+	
+}
+
+.navbar-nav a{
+
+	color: black!important;
 }
 
 .header{
     background-color: #f7ba05ad;
 }
+
+.footer  {
+	background-color: #f29c1b;
+    margin-top: 50px;
+	width: 100%;
+}
+
+ 
+
+.footer-list {
+	display: flex;
+    justify-content: center;
+	flex-direction: column;
+	list-style:none;
+	font-size: 16px;
+	align-items: center;
+	padding: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.footer-list-item {
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.card{
+	cursor: pointer;
+}
+
+
+.card-img-top{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+  
+  .middle {
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contenedor:hover .card-img-top {
+	opacity: 0.3;
+  }
+  
+  .contenedor:hover .middle {
+	opacity: 1;
+  }
+  
+  .icono img{
+    
+	width: 35%;
+  }
